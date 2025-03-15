@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(201, 85, 85);
+}
