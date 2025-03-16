@@ -1,0 +1,16 @@
+.star-rating{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+.active{ 
+    color: gold; 
+    transform: scale(1.1); 
+    transition: transform 0.2s ease; 
+}
+.inactive{ 
+    color: #ccc; 
+    transform: scale(1); 
+    transition: transform 0.2s ease; 
+}
