@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { ImageSlider } from './projectComponents/imageSlider'
 import { LoadProducts } from './projectComponents/load-more-data'
+import { TreeView } from './projectComponents/sideNavBar'
+import menus from './projectComponents/sideNavBar/data'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,8 +18,13 @@ function App() {
         limit={'10'} 
       /> */}
 
+      {/* load more data project is here . */}
+      {/* <LoadProducts /> */}
 
-      <LoadProducts />
+      
+      {/* sidebar menu is here  */}
+      <TreeView menus={menus} />
+
 
     </>
   )

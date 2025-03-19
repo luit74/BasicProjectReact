@@ -56,7 +56,11 @@ export const LoadProducts = () => {
 
                 <div>
                     <button disabled={disablebutton} onClick={() => setCount(count + 1)}>Load More Products</button>
+                    {
+                        disablebutton ? <h3>You have reached 100 products</h3> : null
+                    }
                 </div>
+                
             </div>
         </>
     );
