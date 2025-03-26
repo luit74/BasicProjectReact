@@ -20,14 +20,14 @@ function App() {
 
       {/* load more data project is here . */}
       {/* <LoadProducts /> */}
-
       
       {/* sidebar menu is here  */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
+
 
 
     </>
   )
 }
 
-export default App
+export default App;
